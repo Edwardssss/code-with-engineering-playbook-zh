@@ -1,0 +1,107 @@
+# gitbook-docs.yaml — 站点级 Git Sync 的站点结构与内容映射
+#
+# 这个文件必须位于 Git Sync 的 Project directory（本仓库为根目录）。
+# site.structure 里每一项的 key 是 GitBook 匹配 space 的依据，务必与 GitBook
+# 侧保持一致 —— 改 key 会让 GitBook 视为「旧 space 删除 + 新 space 创建」。
+# 改标题用 title，改 URL 用 path。
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: 微软工程实践手册 · 中文翻译
+  structure:
+    - type: space
+      key: home
+      title: Home
+      path: home
+      default: true
+      content:
+        directory: ./home
+    - type: space
+      key: code-reviews
+      title: 代码评审 Code Reviews
+      path: code-reviews
+      content:
+        directory: ./code-reviews
+    - type: space
+      key: ci-cd
+      title: CI/CD
+      path: ci-cd
+      content:
+        directory: ./ci-cd
+    - type: space
+      key: agile-development
+      title: Agile Development
+      path: agile-development
+      content:
+        directory: ./agile-development
+    - type: space
+      key: ui-ux
+      title: UI-UX
+      path: ui-ux
+      content:
+        directory: ./ui-ux
+    - type: space
+      key: design
+      title: Design
+      path: design
+      content:
+        directory: ./design
+    - type: space
+      key: documentation
+      title: Documentation
+      path: documentation
+      content:
+        directory: ./documentation
+    - type: space
+      key: automated-testing
+      title: Automated Testing
+      path: automated-testing
+      content:
+        directory: ./automated-testing
+    - type: space
+      key: developer-experience
+      title: Developer Experience
+      path: developer-experience
+      content:
+        directory: ./developer-experience
+    - type: space
+      key: security
+      title: Security
+      path: security
+      content:
+        directory: ./security
+    - type: space
+      key: engineering-feedback
+      title: Engineering Feedback
+      path: engineering-feedback
+      content:
+        directory: ./engineering-feedback
+    - type: space
+      key: non-functional-requirements
+      title: Non Functional Requirements
+      path: non-functional-requirements
+      content:
+        directory: ./non-functional-requirements
+    - type: space
+      key: ml-and-ai-projects
+      title: ML and AI Projects
+      path: ml-and-ai-projects
+      content:
+        directory: ./ml-and-ai-projects
+    - type: space
+      key: observability
+      title: Observability
+      path: observability
+      content:
+        directory: ./observability
+    - type: space
+      key: source-control
+      title: Source Control
+      path: source-control
+      content:
+        directory: ./source-control
+    - type: space
+      key: handbook-overview
+      title: Handbook Overview
+      path: handbook-overview
+      content:
+        directory: ./handbook-overview

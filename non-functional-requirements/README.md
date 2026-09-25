@@ -1,0 +1,17 @@
+# non functional requirements
+
+- [Accessibility](accessibility.md)
+- [Availability](availability.md)
+- [Capacity](capacity.md)
+- [Compliance](compliance.md)
+- [Data Integrity](data-integrity.md)
+- [Disaster Recovery and Continuity](disaster-recovery.md)
+- [Internationalization and Localization](internationalization.md)
+- [Interoperability](interoperability.md)
+- [Maintainability](maintainability.md)
+- [Performance](performance.md)
+- [Portability](portability.md)
+- [Reliability](reliability.md)
+- [Scalability](scalability.md)
+- [Usability](usability.md)
+- [Privacy fundamentals](privacy/README.md)

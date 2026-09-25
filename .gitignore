@@ -1,0 +1,43 @@
+# --- 操作系统 ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- 编辑器 / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- 日志与临时文件 ---
+*.log
+*.tmp
+tmp/
+
+# --- 重要信息 ---
+.env
+.env.*
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+
+# --- Terraform ---
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# --- CI/CD 工具缓存 ---
+node_modules/
+.npm/
+__pycache__/
+*.py[cod]
+.pytest_cache/

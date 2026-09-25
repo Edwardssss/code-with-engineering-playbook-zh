@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Machine Learning Fundamentals at ISE](README.md)
+* [Agile Development Considerations for Machine Learning/AI Projects](agile-development-considerations-for-ml-projects.md)
+* [Data Exploration](data-exploration.md)
+* [Envisioning and Problem Formulation](envisioning-and-problem-formulation.md)
+* [Generic Envisioning Summary](envisioning-summary-template.md)
+* [Feasibility Studies](feasibility-studies.md)
+* [ML Fundamentals Checklist](ml-fundamentals-checklist.md)
+* [ML Model Production Checklist](ml-model-checklist.md)
+* [Model Experimentation](model-experimentation.md)
+* [Profiling Machine Learning and MLOps Code](profiling-ml-and-mlops-code.md)
+* [Proposed ML Process](proposed-ml-process.md)
+* [Responsible AI in ISE](responsible-ai.md)
+* [Testing Data Science and MLOps Code](testing-data-science-and-mlops-code.md)
+* [TPM considerations for Machine Learning projects](tpm-considerations-for-ml-projects.md)
